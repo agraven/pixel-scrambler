@@ -1,0 +1,10 @@
+[package]
+name = "pixel-scrambler"
+version = "0.1.0"
+authors = ["Amanda P. Graven <amanda@amandag.net>"]
+
+[dependencies]
+gfx = "0.16.1"
+glutin = "0.10.0"
+gfx_window_glutin = "0.18.0"
+rand = "0.3.18"
