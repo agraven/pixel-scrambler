@@ -92,7 +92,6 @@ fn main() {
                     } => run = false,
                     glutin::WindowEvent::Resized(w, h) => {
                         window.context().resize(w, h);
-                        println!("Resize event caught: {} {}", w, h);
                     }
                     _ => {},
                 }
